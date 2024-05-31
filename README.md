@@ -1,0 +1,2 @@
+# Syntory
+Inventory Management System
