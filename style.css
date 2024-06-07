@@ -1,0 +1,301 @@
+body {
+    background-image: url('Background.png');
+    background-size: cover;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    text-transform: 300;
+}
+
+.text_login{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.login_box{
+        width: 350px;
+        background: #e4d0ad;
+        margin: 0 auto;
+        margin-top: 140px;
+        padding: 30px 20px;
+}
+
+label{
+    font-size: 12pt;
+    color: #7e7042;
+}
+
+.form_login{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tombol_login{
+    background: #b99568;
+    color: #ffff;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper .sidebar{
+    width: 220px;
+    height: 100%;
+    background: #766442;
+    padding: 30px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar h2{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px solid #d7d1b8;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+  }    
+  
+  .wrapper .sidebar ul li a{
+    color: #d7d0b8;
+    display: block;
+  }
+  
+  .wrapper .sidebar ul li a .fas{
+    width: 25px;
+  }
+  
+  .wrapper .sidebar ul li:hover{
+    background-color: #8d6b4f;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #fff;
+  }
+   
+
+.content {
+    width: 1100px;
+    margin-left: 40px;
+    margin-right: 0;
+    
+}
+
+.content h2 {
+    margin: 0 auto;
+    padding: 25px 0;
+    font-size: 22px;
+
+    color: #000000ce;
+    text-align: center;
+}
+
+.content h3 {
+    color: #333333;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.content p {
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.read .create-medicine {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #7c6941;
+    font-weight: bold;
+    font: Tahoma;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-left: 15px 0;
+}
+.read .create-apoteker {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8b6f39;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+.read .create-medicine:hover {
+    background-color: #725836;
+}
+
+.read .pagination {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.read .pagination a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #8a7b69;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 5px 10px;
+    margin: 15px 0 15px 5px;
+}
+
+.read .pagination a:hover {
+    background-color: #6b5d50;
+}
+
+.read table {
+    width: 100%;
+    padding-top: 30px;
+    border-collapse: collapse;
+}
+
+.read table thead {
+    background-color: #837140cb;
+    border-bottom: 1px solid #ffa60070;
+}
+
+.read table thead td {
+    padding: 15px 10px;
+    font: Tahoma;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.read table tbody tr {
+    border-bottom: 1px solid #726049;
+}
+
+.read table tbody tr:hover {
+    background-color: #cec591;
+}
+
+.read table tbody tr td {
+    padding: 10px;
+}
+
+.read table tbody tr td.actions {
+    padding: 8px;
+}
+
+.read table tbody tr td.actions .edit,
+.read table tbody tr td.actions .trash {
+    display: inline-flex;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 12px;
+}
+
+.read table tbody tr td.actions .trash {
+    background-color: #d66733;
+}
+
+.read table tbody tr td.actions .trash:hover {
+    background-color: #e63838;
+}
+
+.read table tbody tr td.actions .edit {
+    background-color: #c5a55f;
+}
+
+.read table tbody tr td.actions .edit:hover {
+    background-color: #e08738;
+}
+
+.update form {
+    padding: 15px 0;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.update form label {
+    display: inline-flex;
+    width: 400px;
+    padding: 10px 0;
+    margin-right: 25px;
+}
+
+.update form input {
+    padding: 7px;
+    width: 400px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+    border: 1.5px solid #f5daa0;
+}
+
+.update form input[type="submit"] {
+    display: block;
+	padding: 10px;
+    background-color: #766442;
+    border: 0;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.update form input[type="submit"]:hover {
+    background-color: #766442;
+}
+
+.delete h2 {
+    margin: 0;
+}
+
+.delete .btn-confirm {
+    display: flex;
+}
+
+.delete .btn-confirm a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #866a35;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 10px 15px;
+    margin-right: 15px;
+}
+
+.delete .btn-confirm a:hover {
+    background-color: #6d572e;
+}
+
+.delete {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1.5px solid #DFE1E5;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
